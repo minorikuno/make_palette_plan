@@ -124,21 +124,24 @@ span {
 }
 
 label {
-	padding: 18px;
+	padding: 22px;
 	margin: 2px;
 }
 button {
 	font-size: 1rem;
-	margin-top: 1rem;
+	margin: 1rem 0;
 }
 
 h1 {
 	font-size: 1.5rem;
 }
 select {
-	text-align: center;
+	text-align: center !important;
 }
-
-
+form {
+     padding: 20px;
+	}
+input {
+	margin-top: 1rem;
   
 }
