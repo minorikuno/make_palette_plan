@@ -17,9 +17,10 @@ form {
   border: 1px solid 474342;
   text-align: center;
   border-radius: 30px;
-
   background-color: #474342;
 }
+
+  
 select {
   cursor: pointer;
 }
@@ -114,4 +115,30 @@ span {
   font-size: 12px;
   font-weight: bold;
   
+}
+
+@media only screen and (max-width: 600px) {
+  form, .planSet, #plan, button  {
+    width: 100%
+}
+
+label {
+	padding: 13px;
+	margin: 5px;
+}
+button {
+	font-size: 1rem;
+	margin-top: 1rem;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+select {
+	width: 100%;
+	text-align: center;
+}
+
+
+  }
 }
